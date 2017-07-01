@@ -1,0 +1,54 @@
+/*************************************
+	Normalize
+*************************************/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*************************************
+	Navigation
+*************************************/
+nav ul {
+	list-style: none;
+	overflow: none;
+}
+
+nav li {
+	display: inline;
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/*************************************
+	Footer
+*************************************/
+footer ul {
+	list-style: none;
+	overflow: none;
+	background-color: teal;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+footer li {
+	display: inline;
+}
+
+footer a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
